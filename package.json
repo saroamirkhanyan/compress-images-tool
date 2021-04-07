@@ -1,0 +1,14 @@
+{
+  "name": "compressor",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "compressor": "compressor.js"
+  },
+  "dependencies": {
+    "sharp": "^0.28.1"
+  }
+}
