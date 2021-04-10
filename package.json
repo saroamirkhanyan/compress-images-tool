@@ -1,8 +1,13 @@
 {
   "name": "compress-images-tool",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "compress-images-tool is tool for compressing images using command line",
-  "keywords": ["compress","images","tool", "compressor"],
+  "keywords": [
+    "compress",
+    "images",
+    "tool",
+    "compressor"
+  ],
   "author": "Saro Amirkhanyan <saroamirkhanyan@gmail.com>",
   "license": "MIT",
   "bin": {
