@@ -1,5 +1,5 @@
-# Compressor
-### Compressor is tool for compressing images
+# Compress images tool
+### compress-images-tool is tool for compressing images
 
 ## Usage 
 
@@ -9,7 +9,7 @@
 ```
 ### Compressing specific images
 ```
-	npx compress-images-tool --directory ./ --quality 50  --images test-image.png test-image2.jpg
+  npx compress-images-tool --directory ./ --quality 50  --images test-image.png test-image2.jpg
 ```
 
 
