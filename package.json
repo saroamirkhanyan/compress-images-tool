@@ -1,14 +1,30 @@
 {
-  "name": "compressor",
-  "version": "1.0.0",
-  "description": "",
+  "name": "compress-images-tool",
+  "version": "1.0.1",
+  "description": "compress-images-tool is tool for compressing images using command line",
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Saro Amirkhanyan <saroamirkhanyan@gmail.com>",
+  "license": "MIT",
   "bin": {
-    "compressor": "compressor.js"
+    "compress-images-tool": "compressor.js"
   },
   "dependencies": {
     "sharp": "^0.28.1"
-  }
+  },
+  "main": "compressor.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+  	"start":"compressor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saroamirkhanyan/compress-images-tool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saroamirkhanyan/compress-images-tool/issues"
+  },
+  "homepage": "https://github.com/saroamirkhanyan/compress-images-tool#readme"
 }
