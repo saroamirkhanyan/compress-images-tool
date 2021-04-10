@@ -1,6 +1,6 @@
 {
   "name": "compress-images-tool",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "compress-images-tool is tool for compressing images using command line",
   "keywords": [
     "compress",
