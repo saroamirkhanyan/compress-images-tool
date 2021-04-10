@@ -15,11 +15,11 @@
 
 ### Configuration Commands
 
-| Command                             | Description                         |
-|-------------------------------------|-------------------------------------|
-| --quality (number)                  | Percantage of compression Default 70|
-| --prefix (text)                     | Prefix before compressed image name |
-| --save-in (directory)               | Where to save                       |
-| --directory (directory)             | Where is located images             |
-| --images (image1 image2 image3 ...) | Images to compress                  |
-| --allowed (png jpg jpeg)            | Which formats compress              |
+| Command                             | Description                            |
+|-------------------------------------|--------------------------------------- |
+| --quality (number)                  | Percantage of compression default is 70|
+| --prefix (text)                     | Prefix before compressed image name    |
+| --save-in (directory)               | Where to save                          |
+| --directory (directory)             | Where is located images                |
+| --images (image1 image2 image3 ...) | Images to compress                     |
+| --allowed (png jpg jpeg)            | Which formats compress                 |
