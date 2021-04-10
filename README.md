@@ -1,2 +1,2 @@
-# compressor
-## nodejs library for compressing images
+# Compressor
+## Compressor is Nodejs tool for compressing images
