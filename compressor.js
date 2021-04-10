@@ -10,7 +10,7 @@ const prefix = getArgs('prefix')[0] || ''
 const path = require('path')
 const CWD = process.cwd()
 const saveInArg = getArgs('save-in')[0]
-const saveIn = saveInArg ? path.join(CWD, saveInArg) : CWD
+const saveIn = path.join(CWD, saveInArg || directory)
 const logProgress = require('./lib/logProgress.js')
 
 
@@ -44,15 +44,13 @@ if (imagesArgs.length) {
 	imagesNames = directoryImages
 }
 else {
-	throw new Error("Insert Images Using --directory or --images")
+	console.error("Insert Images Using --directory or --images")
+	process.exit(1)
 }
 
 const imagesPaths = imagesNames.map(
 	imageName => path.join(CWD,directory,imageName)
 )
-
-console.log(imagesNames)
-console.log({imagesPaths,quality,prefix,saveIn})
 
 compressImageList({
 	imagesPaths,
