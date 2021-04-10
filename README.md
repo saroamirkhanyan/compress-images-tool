@@ -1,17 +1,15 @@
 # Compressor
 ### Compressor is tool for compressing images
 
-## Install
-```
-  git clone https://github.com/saroamirkhanyan/compressor.git
-  npm i -g
-```
-
 ## Usage 
 
 ### Compressing all images in directory
 ```
-  npx compressor --directory ./ --quality 60
+  npx compress-images-tool --directory ./ --quality 50
+```
+### Compressing specific images
+```
+	npx compress-images-tool --directory ./ --quality 50  --images test-image.png test-image2.jpg
 ```
 
 
@@ -19,7 +17,7 @@
 
 | Command                             | Description                         |
 |-------------------------------------|-------------------------------------|
-| --quality (number)                  | Percantage of compression           |
+| --quality (number)                  | Percantage of compression Default 70|
 | --prefix (text)                     | Prefix before compressed image name |
 | --save-in (directory)               | Where to save                       |
 | --directory (directory)             | Where is located images             |
