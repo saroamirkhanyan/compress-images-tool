@@ -9,7 +9,7 @@
 
 ## Usage 
 
-###Compressing all images in directory
+### Compressing all images in directory
 ```
   npx compressor --directory ./ --quality 60
 ```
