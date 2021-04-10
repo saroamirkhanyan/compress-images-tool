@@ -1,2 +1,2 @@
 # Compressor
-## Compressor is Nodejs tool for compressing images
+## Compressor is tool for compressing images
