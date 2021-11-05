@@ -59,4 +59,3 @@ compressImageList({
 	saveIn
 })
 .on('progress', logProgress)
-
